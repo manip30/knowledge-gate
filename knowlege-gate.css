@@ -1,0 +1,150 @@
+/* Main page background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Roboto,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d0731;
+}
+
+/* Outer chatbot container */
+#chatbot-container {
+    width: 360px;
+    max-width: 90%;
+    background-color: #2e0b45;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chatbot title */
+h1 {
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    padding: 16px 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Main chat area */
+#chatbox {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+/* Messages area */
+#messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+/* Input section */
+#input-area {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
+
+/* User input field */
+#user-input {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Send button */
+#send-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+#send-button:hover {
+    background-color: #0056b3;
+}
+body {
+  animation: rotate-bg-color 10s infinite;
+}
+
+@keyframes rotate-bg-color {
+  0% {
+    background-color: steelblue;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: orange;
+  }
+  30% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: green;
+  }
+  50% {
+    background-color: blue;
+  }
+  60% {
+    background-color: indigo;
+  }
+  70% {
+    background-color: violet;
+  }
+  80% {
+    background-color: pink;
+  }
+  90% {
+    background-color: brown;
+  }
+  100% {
+    background-color: black;
+  }
+}
+/* General message bubble */
+.message {
+  max-width: 80%;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+/* User message bubble */
+.user {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Bot message bubble */
+.bot {
+  align-self: flex-start;
+  background-color: #f1f0f0;
+  color: #333333;
+}
+.avatar {
+  margin-right: 8px;
+  font-size: 20px;
+}
